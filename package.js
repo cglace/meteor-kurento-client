@@ -1,6 +1,6 @@
 Package.describe({
     summary: 'Media API for the Kurento Web SDK via the NPM kurento-client-js package',
-    version: "0.0.2",
+    version: "0.0.3",
     name: "cglace:kurento-client",
     git: "https://github.com/cglace/meteor-kurento-client"
 });
@@ -13,5 +13,4 @@ Package.onUse(function(api) {
     api.addFiles([
        'lib/kurento-client.js'
     ], ['server']);
-
 });
