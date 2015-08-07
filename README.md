@@ -7,7 +7,7 @@ JavaScript Kurento Client for web applications and Node.js.
 To use this package with meteor you should wrap all methods with Meteor.wrapAsync. For example:
 
  ```
- var wrappedCreate = var wrappedCreate = Meteor.wrapAsync(kurentoClient.create, kurentoClient);
+ var wrappedCreate = Meteor.wrapAsync(kurentoClient.create, kurentoClient);
  var pipeline = wrappedCreate('MediaPipeline');
 
 
